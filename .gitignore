@@ -4,9 +4,30 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
+
+
+# report files #
+#############
+.log
+.classpath
+output/*
+Reports/*
+.class
+baublebar.log
+screenshots/*
+baublebar.jar
+Baublebar_Soap_Api.zip
+
+# IDE files #
+#############
+.buildpath
+.project
+.classpath
+.settings/*
+sftp-config.json
+*.un~
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
